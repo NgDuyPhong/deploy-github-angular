@@ -1,0 +1,31 @@
+<section class="register">
+<div class="header">
+  <h3>Đăng ký</h3>
+  <p>Nhaqnh chóng và dễ dàng.</p>
+</div>
+
+<div class="body">
+  <form #form="ngForm">
+    <div class="user_name">
+      <input type="text" placeholder="Họ" name="fname" ngModel>
+      <input type="text" placeholder="Tên" name="lname" ngModel>
+    </div>
+
+    <div class="email_password">
+      <input type="text" placeholder="Email" name="email" ngModel>
+      <input type="text" placeholder="Dán đường dẫn avatar" name="avatar" ngModel>
+      <input type="text" placeholder="Mật khẩu mới" name="password" ngModel>
+    </div>
+
+    <p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào</p>
+
+    <button type="submit" class="submit_button" [mat-dialog-close]="form.value">Đăng ký</button>
+
+  </form>
+
+</div>
+
+
+
+
+</section>

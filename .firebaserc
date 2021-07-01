@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fb-clone-ac793": {
+      "hosting": {
+        "deploy-github-angular": [
+          "fb-clone-ac793"
+        ]
+      }
+    }
+  }
+}
